@@ -10,3 +10,6 @@ cakes = number * 4
 print("치킨의 수:", chickens)
 print("맥주의 수:", beers)
 print("케익의 수:", cakes)
+
+
+
