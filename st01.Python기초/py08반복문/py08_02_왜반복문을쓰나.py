@@ -17,5 +17,3 @@ for x in range(0,5,1):  #range(5) : 0부터 5전까지 1씩
     print(x, "환영합니다.") 
         
 # while 문
-while expression:
-    pass
