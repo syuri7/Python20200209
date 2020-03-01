@@ -1,0 +1,51 @@
+객체 > 인스턴스
+
+
+
+1. 함수
+    식별자()
+
+2. 메서드:
+    첫번째 인자가 self 인 경우.
+    사용법: 객체명.식별자(), 인스턴스명.식별자()
+
+
+메서드의 종류
+
+    클래스 메서드
+
+    인스턴스 메서드
+        생성자 메서드 : __init__(self). 인스턴스 변수 추가
+        소멸자 메서드 : __del__(self).
+        toString() 메서드 : __str__(self).
+        접근자(getter)는 비공개 변수를 읽기 위한 메서드다.
+        설정자(setter)는 비공개 변수를 변경하는 메서드다.
+        사용자 메서드 :
+
+
+
+# 재정의 연산자
+# __str__
+# __add__              +
+# __sub__              -
+# __mul__              *
+# __floordiv__         //
+# __mod__              %
+# __divmod__           divmod()
+# __pow__              pow() , **
+# __lshift__           <<
+# __rshift__           >>
+# __and__              &
+# __xor__              ^
+
+
+
+
+# 재정의 메서드 
+# __str__(self):
+# __eq__(self, value)
+# __ne__(self, value)
+# __gt__(self, value)
+# __ge__(self, value)
+# __lt__(self, value)
+# __le__(self, value)

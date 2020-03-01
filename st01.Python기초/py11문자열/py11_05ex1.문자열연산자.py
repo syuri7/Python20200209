@@ -36,3 +36,15 @@ if idx != -1:
 
 
 # 첫번째 b 문자를 찾고 출력하시오.
+# prov = "A barking Dog"
+print(prov[2])
+
+# (2번째부터 4번째 자리까지 추출:  bar)
+bar = prov[2:5]
+print(bar)  # bar 출력
+
+# prov에서 dog전까지만 출력
+print(prov[0:10])
+
+# 마지막 g만 빼고 출력
+print(prov[ :len(prov)-1])
