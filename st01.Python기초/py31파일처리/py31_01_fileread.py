@@ -22,11 +22,11 @@ print("readline() 파일에서 한 줄씩 읽기")
 infile = open("./st01.Python기초/py31파일처리/file/phones.txt",
               "r", encoding="UTF-8")
 s = infile.readline()
-print(s)
+print(s, end="")
 s = infile.readline()
-print(s)
+print(s,end="")
 s = infile.readline()
-print(s)
+print(s,end="")
 infile.close()
 
 
@@ -38,7 +38,7 @@ infile = open("./st01.Python기초/py31파일처리/file/phones.txt",
               "r", encoding="UTF-8")
 line = infile.readline()
 while line != "":
-    print(line)
+    print(line,end="")
     line = infile.readline()
 
 infile.close()
