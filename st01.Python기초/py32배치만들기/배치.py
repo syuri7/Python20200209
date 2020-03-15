@@ -1,0 +1,1 @@
+print("배치 python") # 배치. bat를 실행함

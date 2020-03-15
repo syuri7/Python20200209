@@ -16,3 +16,33 @@
 
 
 # 코딩 하기 
+
+import math
+
+class Circle:
+    def __init__(self, radius):
+        self.__radius = radius       
+    
+    def calcArea(self):
+        result = math.pi * self.__radius**2
+        return result
+    
+    def calcCircum(self):
+        result = 2* math.pi * self.__radius
+        return result
+            
+    def getRadius(self):  # getter을 만들때는 get변수명(변수명에서 첫글자는 대문자로)
+        return self.__radius
+    
+    # setter 사용법 확인 필요
+    def setRadius(self,  radius1):  # getter을 만들때는 get변수명(변수명에서 첫글자는 대문자로)
+        self.__radius  = radius1
+    
+    
+    
+def main():
+    print()
+
+if __name__ == "__main__":
+    main()
+

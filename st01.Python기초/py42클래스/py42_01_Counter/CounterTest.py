@@ -8,3 +8,21 @@
 #    main()
 
 # 코딩 하기 
+
+import Counter
+
+def main():
+    instance1 = Counter.Counter() # 파일명(모듈명).
+    print(instance1.__str__())
+    
+    instance1.increment()
+    instance1.increment()
+    
+    count = instance1.getCount()
+    print("count", count)
+    print(instance1.__str__())
+    
+if __name__ == "__main__":
+    main()
+   
+    
